@@ -49,23 +49,23 @@ class HomePage extends StatelessWidget {
           MaterialButton(
             color: Colors.blue,
             child: Text(
-              "Open blog.logrocket.com",
+              "Open pub.dev",
               style: TextStyle(color: Colors.white70, fontWeight: FontWeight.bold),
             ),
             onPressed: () {
               _handleURLButtonPress(
-                  context, "https://blog.logrocket.com", "blog.logrocket.com");
+                  context, "https://pub.dev", "pub.dev");
             },
           ),
           MaterialButton(
             color: Colors.blue,
             child: Text(
-              "Open logrocket.com",
+              "Open Medium.com",
               style: TextStyle(color: Colors.white70, fontWeight: FontWeight.bold),
             ),
             onPressed: () {
               _handleURLButtonPress(
-                  context, "https://logrocket.com", "logrocket.com");
+                  context, "https://medium.com", "Medium.com");
             },
           ),
         ],
